@@ -2,6 +2,7 @@ source "https://rubygems.org"
 gem "config"
 gem "rails",          "5.1.6"
 gem "bootstrap-sass", "3.3.7"
+gem "bcrypt",         "3.1.12"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
