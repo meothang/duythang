@@ -1,4 +1,7 @@
 vi:
+  static_pages:
+    home:
+      welcome: "Chào mừng đến với Phần mềm mẫu"
   static_title: "Hướng dẫn Ruby on Rails app mẫu"
   hello: "Chào"
   home: "Trang chủ"
@@ -7,8 +10,25 @@ vi:
   home_content: "Đây là trang chủ của %{ruby_tut_link} app."
   help_content: "Nhận trợ giúp trong %{help_section_link}. Để nhận được trợ giúp trong ví dụ này, hãy vào %{rails_book_link}"
   help_section: "mục trợ giúp Rails Tutorial"
+  welcome_content: "Đây là trang chủ cho %{welcome_section_link} phần mềm mẫu."
+  footer_content: "Cuốn %{footer_section_link} viết bởi %{author_section_link}"
+  author: "Michael Hartl"
+  welcome_section: "Hướng dẫn Ruby on Rails"
   rails_book: "Ruby on Rails Tutorial"
-  about_content: "%{rails_tut_link} vừa là một %{rails_book_link} vừa là %{screen_cast_rails} hướng dẫn lập trình web với %{RoR_link}. Đây là ví dụ đơn gỉan của 1 app"
+  about_content: "%{rails_tut_link}
+  vừa là một %{rails_book_link}
+  vừa là %{screen_cast_rails}
+  hướng dẫn lập trình web với %{RoR_link}.
+  Đây là ví dụ đơn gỉan của 1 app"
   book: "sách"
-  screen_cast: "screencast series"
+  screen_cát: "screencast series"
   ror_tut: "Hướng dẫn Ruby on Rails"
+  login: ""
+  signup: "Đăng kí ngay!"
+  sign_up: "Đăng kí ngay!"
+  login: "Đăng nhập"
+  contact: "Liên hệ"
+  news_content: "%{news_content_link}"
+  news_section: "Tin tức"
+  signup_content: "Đây là trang đăng kí cho thành viên mới"
+

@@ -1,6 +1,10 @@
-<% provide:title,(t"home") %>
-  <h1><%= t "home" %></h1>
-<p>
-  <%=raw t("home_content", ruby_tut_link: link_to("Ruby on Rails", "http://www.railstutorial.org/")
+<% provide :title,(t "home") %>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= raw t("welcome_content",
+    welcome_section_link: link_to((t "welcome_section"), "https://www.railstutorial.org")
     )%>
-</p>
+  </h2>
+  <%= link_to (t "signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>

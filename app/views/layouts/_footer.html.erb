@@ -1,0 +1,19 @@
+<footer class="footer">
+  <small>
+    <%= raw t("footer_content",
+      footer_section_link: link_to((t "rails_book"),"http://www.railstutorial.org"),
+      author_section_link: link_to((t "author"),"http://www.michaelhartl.com")
+    )%>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to (t "about"),about_path %></li>
+      <li><%= link_to (t "contact"),contact_path %></li>
+      <li>
+        <%= raw t("news_content",
+          news_content_link: link_to((t "news_section"),"http://news.railstutorial.org")
+        )%>
+      </li>
+    </ul>
+  </nav>
+</footer>
